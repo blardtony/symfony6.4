@@ -14,12 +14,15 @@
 .phpunit.result.cache
 ###< phpunit/phpunit ###
 
-###> symfony/phpunit-bridge ###
-.phpunit.result.cache
-/phpunit.xml
-###< symfony/phpunit-bridge ###
-
 ###> symfony/asset-mapper ###
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+
+###> Npm ###
+/node_modules/
+###< Npm ###
+
+###> Symfony Idea ###
+/.idea/
+###< Symfony Idea ###
